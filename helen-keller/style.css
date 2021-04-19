@@ -1,0 +1,169 @@
+
+
+h1{
+	background-color:green;
+	padding-left: 10px;
+	
+}
+
+h2{
+	color:red;
+	margin-bottom:0;
+	font-size:20px;
+	font-family: 'Roboto',Arial,sans-serif;
+	letter-spacing:3px;
+}
+	
+p{
+	margin-bottom:0;
+}
+li{
+	list-style: none;
+}
+.index{
+	float:right;
+}
+iframe{
+	margin:50px;
+}
+body{
+	margin:0;
+	padding: 0;
+	background-color:grey;
+}
+
+span{color:white;
+	font-size:25px}
+
+.imageadroite{
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+}
+.container{
+	width: 960px;
+	height:900px;
+	background-color: white;
+	margin: 0 auto;
+	
+	
+}
+
+.header{
+	min-height: 150px;
+	background-color: #382c20;
+	font-size:75px;
+	padding-left:400px;
+	padding-top:50px;
+	background-image:url(images/entete.jpg);
+}
+.principale{
+	min-height: 500px;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.footer{
+	height:100px;
+	background-color: #000000;
+	font-size:25px;
+	vertical-align:middle;
+	line-height:100px;
+	text-align:center;
+
+
+}
+
+.col1{
+	width: 200px;
+	min-height: 900px;
+	background-color: #beaf92;
+
+}
+.col2{
+	width: 560px;
+	min-height: 900px;
+	background-color: white;
+
+	
+
+}
+.col3{
+	width: 200px;
+	min-height: 900px;
+	background-color: #beaf92;
+	
+
+}
+
+
+.article{
+	margin : 30px;
+	float:left;
+}
+
+}
+ul, 
+li{
+	margin: 0;
+	padding:20px;
+	list-style :none;
+}
+
+.menu ul{
+	width: 110px;
+	margin-left: 100px;
+	border-radius : 7px;
+	border: 1px solid black;
+	margin-top: px;
+}
+
+.menu li{
+	width: 110px;
+	height: 48px;
+	background: black url(images/fond-ul.jpg) left top repeat-x;
+	border-bottom: 1px solid white;
+	margin-bottom: 10px;
+}
+
+.menu a{
+	width: 110px;
+	height: 48px;
+	line-height: 48px;
+	
+	text-align: center;
+	color: white;
+	text-decoration:none;
+	display: block;
+
+}
+.menu{
+	list-style:none;
+}
+.menu a:hover{
+	background: black url(images/fond-h.jpg) left top repeat-x;
+	color: white;
+	
+}
+
+.menu ul li:first-of-type a:hover{
+	border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+	
+}
+
+.menu ul li:last-of-type a:hover{
+	border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+	
+}
+textarea{
+	width: 350px;
+	height: 100px;
+	border: 1px solid red;
+	background-color: #c8c8c8;
+	font-family: verdana;
+	color: purple;
+	padding: 20px;
+}
